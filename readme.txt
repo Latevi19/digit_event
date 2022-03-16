@@ -1,5 +1,17 @@
 symfony new digit_event_V4 --full
 symfony console make:controller
+git init 
+git add .
+git commit -m 'first'
+git remote add origin (lien)
+(git remote rm digitevent: au cas ou cela existe déjé)
+git push -u origin master
+
+ensuite 
+git add .
+git commit -m 'second'
+git push
+
 integrer le template admin dans public ,creer les parties, les assets, includs et exends 
 Data base: digit_event_V4 et MailHog (port 1025 dans .env et 8025 dans le navigateur)
 Creer les bases 1 et 2 pour visiteur et organisateur 
